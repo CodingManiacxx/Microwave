@@ -1,2 +1,3 @@
 # Microwave
-To check if the food is cooked ( using python )
+Getting your food microwaved or heated?
+use the microwave to your pleasing and use the timer to cook the food 

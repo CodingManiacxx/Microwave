@@ -17,9 +17,27 @@ if x=="YES":
     x=int(input("how long do you want to microwave it for (in seconds):"))
     print("cooking for",x,"seconds")
     for i in range(x, 0, -1):
-        print(i)
+        z=print(f''' .----------------.
+                       I__________________I
+                       ||\ ________ /|  _ |
+                       || |:      :| |o(_)|
+                       || |;-{i}-;| |o(_)|
+                       || |________| | __ |
+                       ||/__________\|[__]| 
+                       "------------------" 
+                       ''')
         time.sleep(1)
-    print("your food has been cooked")
+
+    print(f''' .----------------.
+                       I________________________________________I
+                       ||          \ ________ /            |  _ |
+                       ||           |:      :|             |o(_)|
+                       || |;-YOUR FOOD HAS BEEN COOKED-;| |o(_)|
+                       ||           |________|             | __ |
+                       ||          /__________\            |[__]| 
+                       "----------------------------------------" 
+                       ''')
 else:
     print("Stopping..")
+
 
